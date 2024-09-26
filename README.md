@@ -4,7 +4,7 @@
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/Azure/sonic-buildimage.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Azure/sonic-buildimage/context:python)
 
 
-*master builds*:
+*master builds*:   
 
 [![Barefoot](https://dev.azure.com/mssonic/build/_apis/build/status/barefoot/Azure.sonic-buildimage.official.barefoot?branchName=master&label=Barefoot)](https://dev.azure.com/mssonic/build/_build/latest?definitionId=146&branchName=master)
 [![Broadcom](https://dev.azure.com/mssonic/build/_apis/build/status/broadcom/Azure.sonic-buildimage.official.broadcom?branchName=master&label=Broadcom)](https://dev.azure.com/mssonic/build/_build/latest?definitionId=138&branchName=master)
