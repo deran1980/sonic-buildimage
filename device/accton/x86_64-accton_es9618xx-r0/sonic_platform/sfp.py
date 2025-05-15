@@ -9,6 +9,8 @@ import os
 import sys
 import time
 import struct
+import subprocess
+import shlex
 from ctypes import create_string_buffer
 
 try:
@@ -96,7 +98,8 @@ class Sfp(SfpOptoeBase):
         return True
 
     def __is_host(self):
-        return os.system(self.HOST_CHK_CMD) == 0
+        cmd = shlex.split(self.HOST_CHK_CMD)
+        return subprocess.call(cmd) == 0
 
 
     def __get_path_to_port_config_file(self):
